@@ -15,7 +15,7 @@ function LegalLayout({ title, content, projectName, projectSlug }) {
         <h1 className="legal-title">{title}</h1>
 
         <div className="legal-card">
-          <pre className="legal-text">{content}</pre>
+          <div className="legal-text">{content}</div>
         </div>
 
         <div className="bottom-links">

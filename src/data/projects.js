@@ -2,22 +2,20 @@ const projects = {
   workist: {
     name: "Workist",
     slug: "workist",
-    privacyPolicy: `...`,
-    terms: `...`,
-  },
+    privacyPolicy: `Privacy Policy for Workist
+Last updated: November 25, 2023
 
-  sampleapp: {
-    name: "Sample App",
-    slug: "sampleapp",
-    privacyPolicy: `...`,
-    terms: `...`,
+This is a placeholder privacy policy for Workist.`,
+    terms: `Terms and Conditions for Workist
+Last updated: November 25, 2023
+
+This is a placeholder terms page for Workist.`,
   },
 
   eatfit: {
     name: "EatFit",
     slug: "eatfit",
-    privacyPolicy: `
-Privacy Policy for EatFit
+    privacyPolicy: `Privacy Policy for EatFit
 
 Privacy Policy
 Last updated: November 25, 2023
@@ -167,8 +165,7 @@ If you have any questions about this Privacy Policy, You can contact us:
 
 By email: yadav.gaurav00729@gmail.com
 
-Generated using Free Privacy Policy Generator
-`,
+Generated using Free Privacy Policy Generator`,
     terms: `Terms and Conditions for EatFit
 Coming soon.`,
   },

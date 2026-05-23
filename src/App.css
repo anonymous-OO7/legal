@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f7fb;
-  color: #111827;
+  background: #ffff;
+  color: #ffffff;
 }
 
 a {
@@ -27,6 +27,10 @@ a {
   margin-bottom: 10px;
 }
 
+.home-container p {
+  color: #cbd5e1;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -36,10 +40,19 @@ a {
 
 .project-card,
 .legal-card {
-  background: white;
+  background: #ffffff;
+  color: #111827;
   border-radius: 16px;
   padding: 24px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h2 {
+  margin-top: 0;
+}
+
+.project-card p {
+  color: #4b5563;
 }
 
 .card-actions,
@@ -57,13 +70,21 @@ a {
   padding: 10px 14px;
   border-radius: 10px;
   background: #111827;
-  color: white;
+  color: #ffffff;
+  transition: opacity 0.2s ease;
+}
+
+.card-actions a:hover,
+.bottom-links a:hover,
+.back-link:hover {
+  opacity: 0.85;
 }
 
 .project-badge {
   padding: 8px 12px;
   border-radius: 999px;
   background: #e5e7eb;
+  color: #111827;
   font-size: 14px;
 }
 
@@ -72,6 +93,8 @@ a {
   font-family: inherit;
   line-height: 1.7;
   margin: 0;
+  font-size: 15px;
+  color: #111827;
 }
 
 .top-bar {

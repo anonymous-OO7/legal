@@ -16,10 +16,10 @@ function ProjectPage() {
 
   if (pageType === "privacy-policy") {
     title = `${project.name} Privacy Policy`;
-    content = project.privacyPolicy;
+    content = project.privacyPolicy || "";
   } else if (pageType === "terms-and-conditions") {
     title = `${project.name} Terms & Conditions`;
-    content = project.terms;
+    content = project.terms || "";
   } else {
     return <Navigate to="/" replace />;
   }
