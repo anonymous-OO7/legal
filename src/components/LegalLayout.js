@@ -6,9 +6,9 @@ function LegalLayout({ title, content, projectName, projectSlug }) {
     <div className="legal-page">
       <div className="legal-container">
         <div className="top-bar">
-          <Link to="/" className="back-link">
+          {/* <Link to="/" className="back-link">
             ← Back to Home
-          </Link>
+          </Link> */}
           <span className="project-badge">{projectName}</span>
         </div>
 
@@ -17,13 +17,13 @@ function LegalLayout({ title, content, projectName, projectSlug }) {
         <div className="legal-card">
           <div className="legal-text">{content}</div>
         </div>
-
+        {/* 
         <div className="bottom-links">
           <Link to={`/${projectSlug}/privacy-policy`}>Privacy Policy</Link>
           <Link to={`/${projectSlug}/terms-and-conditions`}>
             Terms & Conditions
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
