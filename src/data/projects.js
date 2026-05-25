@@ -2,36 +2,25 @@ const projects = {
   workist: {
     name: "Workist",
     slug: "workist",
-    privacyPolicy: `Privacy Policy for Workist
-Last updated: November 25, 2023
-
-This is a placeholder privacy policy for Workist.`,
-    terms: `Terms and Conditions for Workist
-Last updated: November 25, 2023
-
-This is a placeholder terms page for Workist.`,
-  },
-
-  eatfit: {
-    name: "EatFit",
-    slug: "eatfit",
     privacyPolicy: `Privacy Policy for EatFit
 
 Last updated: May 25, 2026
 
 Developer / Company Name:
-[Use the exact developer or company name shown on your Google Play Store listing]
+EatFit
 
 Contact Email:
 yadav.gaurav00729@gmail.com
 
 Introduction
 
-EatFit is a health and wellness application that provides users with healthy recipes, nutrition tips, wellness-related content, and personal fitness dashboards using Health Connect by Android.
+EatFit is a health and wellness application that provides healthy recipes, wellness tips, nutrition-related content, and personal fitness dashboards using Health Connect by Android.
 
-The app allows users to optionally connect their Health Connect account to view personal fitness and wellness information such as steps, calories, distance, workouts, sleep, and related health metrics directly on their dashboard.
+Users may optionally connect their Health Connect account to allow the app to display health and fitness information such as steps, calories, workouts, sleep, heart rate, and related activity metrics directly inside the app dashboard.
 
-EatFit does not sell health data and does not use Health Connect data for advertising purposes.
+EatFit only reads and displays Health Connect data provided by the user’s device and authorized apps.
+
+EatFit does not provide medical advice, diagnosis, or treatment.
 
 By using EatFit, you agree to this Privacy Policy.
 
@@ -46,7 +35,7 @@ We may collect:
 
 B. Health Connect Data
 
-If you choose to connect Health Connect, EatFit may access the following health and fitness data types:
+If you choose to connect Health Connect, EatFit may request access to the following health and fitness data types:
 
 - Steps
 - Distance
@@ -59,58 +48,67 @@ If you choose to connect Health Connect, EatFit may access the following health 
 - Cycling Pedaling Cadence
 - Steps Cadence
 
-This data is accessed only after the user grants explicit permission through Android Health Connect.
+This access is requested only after explicit user permission through Android Health Connect.
 
-EatFit only reads and displays this data inside the application dashboard to help users monitor their personal fitness and wellness progress.
+EatFit only reads and displays this information for user-facing dashboard and wellness features.
 
-EatFit does not modify Health Connect data.
+EatFit:
+- does not modify Health Connect data
+- does not write health records into Health Connect
+- does not sell Health Connect data
+- does not use Health Connect data for advertising
+- does not share Health Connect data with unauthorized third parties
 
-EatFit does not share Health Connect data with third parties for advertising or marketing purposes.
+Users may revoke Health Connect permissions at any time through Android Health Connect settings.
+
+EatFit only requests the minimum data permissions necessary for app functionality.
 
 C. Device and Usage Information
 
-We may collect:
-- Device type
-- Operating system version
+We may collect limited technical information such as:
+- Device model
+- Android version
 - App version
 - Crash logs
 - Diagnostic information
-- Basic analytics related to app performance
+- Performance analytics
+
+This information is used only to improve app stability and performance.
 
 2. How We Use Your Information
 
-We use collected data only for the following purposes:
+We use collected information only for the following purposes:
 
-- Displaying health and fitness dashboards
+- Displaying health dashboards
 - Showing activity summaries and trends
-- Displaying wellness insights
-- Providing recipe and healthy lifestyle recommendations
-- Improving app performance and stability
+- Displaying recipes and wellness content
+- Providing fitness insights
+- Improving app performance and reliability
 - Responding to support requests
 
-Health Connect data is used only for user-facing features inside the app.
+Health Connect data is used only for in-app user-facing functionality.
 
 3. No Medical Advice
 
-EatFit is not a medical application and does not provide medical advice, diagnosis, or treatment.
+EatFit is not a medical application and does not provide medical advice, diagnosis, treatment, emergency assistance, or healthcare services.
 
-All recipes, health tips, fitness insights, calorie calculations, activity summaries, and wellness information provided in the app are for informational and educational purposes only.
+All recipes, calorie calculations, activity summaries, sleep information, fitness insights, and wellness content are provided strictly for informational and educational purposes.
 
-Users must independently verify all health, nutrition, calorie, fitness, sleep, and wellness information before relying on it.
+Users should always consult qualified healthcare professionals before making medical, dietary, exercise, or health-related decisions.
 
-Always consult a qualified healthcare professional before making medical, dietary, exercise, or health-related decisions.
-
-4. User Responsibility
+4. User Responsibility and Data Accuracy
 
 Users are solely responsible for:
 - verifying the accuracy of health data
-- verifying nutrition and fitness information
+- verifying nutrition information
 - monitoring their own health conditions
-- making personal health and fitness decisions
+- making personal fitness and health decisions
 
-Health Connect data may vary depending on device sensors, connected apps, or third-party fitness services.
+Health Connect data may vary depending on device sensors, connected fitness applications, wearable devices, or third-party integrations.
 
-EatFit does not guarantee the completeness, accuracy, reliability, or correctness of any health or fitness data displayed inside the app.
+EatFit does not guarantee the accuracy, completeness, reliability, or correctness of any health, fitness, calorie, sleep, or wellness information displayed within the app.
+
+Users use the application entirely at their own risk.
 
 5. Limitation of Liability
 
@@ -120,64 +118,74 @@ EatFit, its developers, owners, affiliates, and operators shall not be responsib
 - inaccurate health data
 - missing health data
 - incorrect calorie calculations
-- fitness tracking errors
+- workout tracking errors
 - recipe inaccuracies
-- health complications
 - injuries
-- medical conditions
-- financial losses
-- indirect or consequential damages arising from the use of the app
-
-Users use the application and rely on displayed information entirely at their own risk.
+- medical complications
+- health-related decisions
+- indirect or consequential damages
+arising from the use of the application.
 
 6. Data Sharing
 
-We do not sell personal or health data.
+We do not sell personal data or health data.
 
 We may share limited information only:
-- with service providers required for app functionality
-- if required by law
+- with service providers necessary for app functionality
+- when legally required
 - to protect legal rights or prevent abuse
 - with user consent
 
-Health Connect data is not shared for advertising purposes.
+Health Connect data is never shared for advertising or marketing purposes.
 
 7. Data Storage and Retention
 
-EatFit may temporarily process or locally store health and wellness data on the user’s device to provide dashboard functionality.
+EatFit may temporarily process or locally store certain health and wellness information on the user’s device to provide dashboard functionality.
 
-We retain personal information only for as long as necessary to operate the app, comply with legal obligations, resolve disputes, and enforce agreements.
+We retain personal information only for as long as necessary to:
+- operate the application
+- comply with legal obligations
+- resolve disputes
+- enforce agreements
 
-8. Data Security
+8. User Controls and Data Deletion
 
-We use reasonable security measures to protect user information.
+Users may:
+- disconnect Health Connect access at any time
+- revoke permissions through Android settings
+- request deletion of account-related information by contacting us
 
-However, no digital platform or internet transmission method can guarantee absolute security.
+9. Data Security
 
-9. Children's Privacy
+We use reasonable technical and organizational measures to help protect user information.
 
-EatFit is not intended for children under the age of 13.
+However, no electronic storage system or internet transmission method can guarantee absolute security.
+
+10. Children's Privacy
+
+EatFit is not intended for children under 13 years of age.
 
 We do not knowingly collect personal information from children under 13.
 
-10. Third-Party Services
+11. Third-Party Services
 
-EatFit may contain links to third-party websites or services. We are not responsible for the privacy practices or content of those third parties.
+EatFit may contain links to third-party websites or services.
 
-11. Changes to This Privacy Policy
+We are not responsible for the privacy practices, content, or policies of third-party services.
+
+12. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time.
 
 Updated versions will be posted within the application or on the official privacy policy page.
 
-12. Contact Us
+13. Contact Us
 
-If you have any questions regarding this Privacy Policy, you may contact us at:
+If you have questions regarding this Privacy Policy, contact us at:
 
 Email:
-yadav.gaurav00729@gmail.com`,
-    terms: `Terms and Conditions for EatFit
-Coming soon.`,
+yadav.gaurav00729@gmail.com
+`,
   },
 };
 
